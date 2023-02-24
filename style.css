@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  float: left;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.cod-logo-white {
+  height: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list-item {
+  margin: 0 2rem;
+}
+
+/* background: url(/assets/images/warzone-hero.jpg) center center no-repeat; 
+background-size: cover; */
