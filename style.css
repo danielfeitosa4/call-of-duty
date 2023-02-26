@@ -4,19 +4,42 @@
   box-sizing: border-box;
 }
 
-.nav {
-  float: left;
+header {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.nav-bar {
+.div-principal-one {
   display: flex;
   justify-content: space-between;
-  background-color: black;
-  color: white;
+  align-items: center;
+  background-image: url("./assets/images/background-nav.png");
+  background-size: 2px;
+  background-color: #000000;
+  color: #A1A2A2;
+  font-size: 12px;
+  height: 5vh;
+}
+
+.nav-bar-one {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .cod-logo-white {
-  height: 2rem;
+  height: 1.5rem;
+}
+
+.logo-nav-bar-one {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+
+.logo-nav-bar-one:hover {
+  background-color: #000000;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .nav-list {
@@ -25,8 +48,163 @@
 }
 
 .nav-list-item {
-  margin: 0 2rem;
+  margin-left: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 5px;
 }
 
-/* background: url(/assets/images/warzone-hero.jpg) center center no-repeat; 
-background-size: cover; */
+.nav-list-item:hover {
+  color: #6BA436;
+}
+
+.li-background-hover:hover {
+  background-color: #141414;
+  transition: 0.5s;
+}
+
+li { 
+  display: flex;
+  align-items: center;
+  height: 5vh;
+}
+
+li a{
+  padding: 0 5px;
+}
+
+.sign-in:hover {
+  color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+  color: #A1A2A2;
+  font-size: 12px;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.btn {
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 3px;
+  margin-left: 1rem;
+  background-color: #6BA436;
+  padding: 1rem;
+  border: none;
+  height: 5vh;
+  width: 20vh;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #518521; 
+}
+
+.div-principal-two {
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  color: #A1A2A2;
+  font-size: 12px;
+  height: 5vh;
+}
+
+.nav-bar-two {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.cod-logo-wz2 img {
+  height: 1.6rem;
+}
+
+.nav-list-two {
+  display: flex;
+}
+
+.nav-list-item-two {
+  margin-left: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.nav-list-item-two:hover {
+  color: #ffffff;
+}
+
+.sec1 {
+  margin-top: 35rem;
+  background: linear-gradient(0deg, #000 35%, rgba(255, 255, 255, 0) 100%);
+}
+
+.sec1-image {
+  max-width: 420px;
+  margin: 0 auto 10px;
+}
+
+.background-imagem-principal {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 80vh;
+  background: url(./assets/images/warzone-hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.hero-play-free {
+  width: fit-content;
+  position: relative;
+  margin: 0 auto 15px;
+  font-family: stratum2bold, sans-serif;
+  font-size: clamp(1.1rem, 1.8vw, 3.7rem);
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.hero-play-free::after {
+  content: "";
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(105%, 0);
+  background: #78ac35;
+  background: -moz-linear-gradient(left, #78ac35 0%, #000000 100%);
+  background: -webkit-linear-gradient(left, #78ac35 0%, #000000 100%);
+  background: linear-gradient(to right, #78ac35 0%, #000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#78ac35', endColorstr='#000000', GradientType=1);
+}
+
+
+.hero-play-free::before {
+  content: "";
+  height: 2px;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-105%, 0);
+  background: #000000;
+  background: -moz-linear-gradient(left, #000000 0%, #78ac35 100%);
+  background: -webkit-linear-gradient(left, #000000 0%, #78ac35 100%);
+  background: linear-gradient(to right, #000000 0%, #78ac35 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#78ac35', GradientType=1);
+}
+
+.sec2 {
+  background-color: #000000;
+}

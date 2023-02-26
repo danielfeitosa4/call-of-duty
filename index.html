@@ -4,52 +4,104 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  
   <title>Call of Duty</title>
 </head>
 <body>
 
-  <header>
-    <div class="nav-bar-one">
-      <img class="cod-logo-white" src="./assets/images/cod-logo-white.svg" alt="Call of Duty">
-
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-list-item">Jogos</li>
-          <li class="nav-list-item">News</li>
-          <li class="nav-list-item">Esports</li>
-          <li class="nav-list-item">Suporte</li>
-          <li class="nav-list-item">Loja</li>
-        </ul>
-      </nav>
-    </div>
-
-    <div>
-      ENTRAR | INSCREVER-SE
-
-      <button>Comprar mwii</button>
-    </div>
-
-    <div class="nav-bar-two">
-      <div class="cod-logo-wz2">
-        <img src="" alt="">
-      </div>
-
-      <div>
-        <nav>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+  <header class="desktop-header">
+    <div class="div-principal-one">
+      <div class="nav-bar-one">
+        <div class="logo-nav-bar-one">
+          <a href="#">
+            <img class="cod-logo-white" src="./assets/images/cod-logo-white.svg" alt="Call of Duty">
+          </a>
+        </div>
+  
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-list-item li-background-hover">Jogos
+              <a class="arrow" href="">
+                <img src="./assets/images/double-arrow-down-svgrepo-com.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-list-item">News</li>
+            <li class="nav-list-item li-background-hover">Esports
+              <a class="arrow" href="">
+                <img src="./assets/images/double-arrow-down-svgrepo-com.svg" alt="">
+              </a>
+            </li>
+            <li class="nav-list-item">Suporte</li>
+            <li class="nav-list-item li-background-hover">Loja
+              <a class="arrow" href="">
+                <img src="./assets/images/double-arrow-down-svgrepo-com.svg" alt="">
+              </a>
+            </li>
           </ul>
         </nav>
+      </div>
+      
+      <div class="nav-bar-one">
+        <div class="sign-in">
+          <a class="link" href="#">ENTRAR</a>
+          <span> |</span>
+          <a class="link" href="#">INSCREVER-SE</a>
+        </div>
+  
+        <button class="btn">Comprar mwii</button>
+      </div>
+    </div>
+
+    <div class="div-principal-two">
+      <div class="nav-bar-two">
+        <div class="cod-logo-wz2">
+          <img src="./assets/images/wz2-logo-icon.png" alt="">
+        </div>
+  
+        <div>
+          <nav class="nav-two">
+            <ul class="nav-list-two">
+              <li class="nav-list-item-two">SEASON 02</li>
+              <li class="nav-list-item-two">PASSE DE BATALHA</li>
+              <li class="nav-list-item-two">RICOCHET</li>
+              <li class="nav-list-item-two">TAC ATLAS GUIDE</li>
+              <li class="nav-list-item-two">BLOGS</li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
 
-  <main></main>
+  <main>
+    <section class="sec1">
+      <div class="background-imagem-principal">
+      </div>
+
+      <div class="sec1-image">
+        <img src="./assets/images/wz2_s2_wz2-logo-hero_white.png" alt="">
+      </div>
+
+      <div class="hero-play-free">
+        JOGA GRÁTIS AGORA
+      </div>
+    </section>
+
+    <div class="sec2">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
 
 </body>
 </html>
